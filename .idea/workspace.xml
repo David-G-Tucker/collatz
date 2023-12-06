@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7320c860-7265-4ca4-bad1-c69bb6139ade" name="Changes" comment="Initial recursive implementation. Beware stack overflow for high numbers. In Scala ise @tailrec annotation to avoid.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CollatzConjecture.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollatzCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollatzCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="7320c860-7265-4ca4-bad1-c69bb6139ade" name="Changes" comment="Initial recursive implementation. Beware stack overflow for high numbers. In Scala ise @tailrec annotation to avoid." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +88,26 @@
       <option name="presentableId" value="Default" />
       <updated>1701823898046</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial recursive implementation. Beware stack overflow for high numbers. In Scala ise @tailrec annotation to avoid.">
+      <created>1701825561971</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701825561971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial recursive implementation. Beware stack overflow for high numbers. In Scala ise @tailrec annotation to avoid." />
