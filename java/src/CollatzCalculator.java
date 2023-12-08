@@ -1,3 +1,5 @@
+package java;
+
 /**
  * Class to calculate numbers around Collatz conjecture
  * <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">Collatz Conjecture on Wikipedia</a>

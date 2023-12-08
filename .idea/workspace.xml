@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7320c860-7265-4ca4-bad1-c69bb6139ade" name="Changes" comment="Initial recursive implementation. Beware stack overflow for high numbers. In Scala ise @tailrec annotation to avoid.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/CollatzCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/CollatzCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/CollatzCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/CollatzCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,9 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
@@ -54,7 +59,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CollatzCalculatorTest.getCollatzStepCountForNumberTest">
+  <component name="RunManager" selected="JUnit.CollatzCalculatorTest">
+    <configuration name="CollatzCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CollatzConjecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="java.CollatzCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CollatzCalculatorTest.calculateNextNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CollatzConjecture" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CollatzCalculatorTest" />
         <item itemvalue="JUnit.CollatzCalculatorTest.getCollatzStepCountForNumberTest" />
         <item itemvalue="JUnit.CollatzCalculatorTest.calculateNextNumberTest" />
       </list>
