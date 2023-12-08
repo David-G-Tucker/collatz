@@ -16,7 +16,7 @@ def collatzStepCount(number, steps):
         return collatzStepCount(collatzStep(number), steps + 1)
 
 #calculates number of steps required for starting numbers from 1 up to given max
-def collectzStepCalculateUpTo(number):
+def collatzStepCalculateUpTo(number):
     results = []
     for n in range(1, number):
         count = collatzStepCount(n, 0)
