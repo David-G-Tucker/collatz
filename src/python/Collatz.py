@@ -39,10 +39,11 @@ def collatz_step_count(number, steps):
 # calculates number of steps required for starting numbers from 1 up to given max
 def collatz_step_calculate_up_to(number):
     slow_results = []
-    for n in range(1, number):
+    for n in range(1, number + 1):
         count = collatz_step_count(n, 0)
         slow_results.append(count)
         print(n, " = ", count)
+
 
 # TEST CASES
 print('step test 2', collatz_step(2) == 1)
